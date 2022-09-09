@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html no_gl="true" lang="ko" class="dcg-calculator-api-container">
+  <head>
+    <meta property="og:title" content="공학용 계산기"/>
+    <meta property="og:description" content="calculator, 백분율, 분수, 지수함수, 로그, 삼각법, 통계 등의 고급 기능이 탑재된 훌륭한 무료 공학용 계산기입니다."/>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6182641248960915"
+     crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"
+    />
+
+    <meta
+      name="Description"
+      content="calculator, 백분율, 분수, 지수함수, 로그, 삼각법, 통계 등의 고급 기능이 탑재된 훌륭한 무료 공학용 계산기입니다."
+    />
+
+    <link
+      rel="stylesheet"
+      href="./assets/api-31a6095b4519086ee70ef5fb3fa77f1c96150c35.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/calculator_basic-e4d4925a748de9392a2730bf54ab3098b18674bd.css"
+    />
+
+    <link rel="canonical" href="https://pscalc.netlify.app/index.html" />
+
+    <style type="text/css">
+      #navigation{
+        display:none
+      }
+      body {
+        font-family: Arial, sans-serif;
+      }
+      @-moz-keyframes dcg-loading-pulse {
+        0% {
+          opacity: 0;
+        }
+        20% {
+          opacity: 1;
+        }
+        80% {
+          opacity: 0;
+          -moz-transform: scale(1.5, 1.5);
+        }
+        100% {
+          opacity: 0;
+          -moz-transform: scale(1.5, 1.5);
+        }
+      }
+      @-webkit-keyframes dcg-loading-pulse {
+        0% {
+          opacity: 0;
+        }
+        20% {
+          opacity: 1;
+        }
+        80% {
+          opacity: 0;
+          -webkit-transform: scale(1.5, 1.5);
+        }
+        100% {
+          opacity: 0;
+          -webkit-transform: scale(1.5, 1.5);
+        }
+      }
+      @-o-keyframes dcg-loading-pulse {
+        0% {
+          opacity: 0;
+        }
+        20% {
+          opacity: 1;
+        }
+        80% {
+          opacity: 0;
+          -o-transform: scale(1.5, 1.5);
+        }
+        100% {
+          opacity: 0;
+          -o-transform: scale(1.5, 1.5);
+        }
+      }
+      @keyframes dcg-loading-pulse {
+        0% {
+          opacity: 0;
+        }
+        20% {
+          opacity: 1;
+        }
+        80% {
+          opacity: 0;
+          transform: scale(1.5, 1.5);
+        }
+        100% {
+          opacity: 0;
+          transform: scale(1.5, 1.5);
+        }
+      }
+
+      .dcg-loading-div-container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: #fff;
+        z-index: 1000;
+      }
+
+      .dcg-loading-background-div {
+        animation: dcg-loading-pulse 2.2s infinite;
+        left: 50%;
+        background: #eee;
+        width: 140px;
+        height: 140px;
+        display: inline-block;
+        moz-animation: dcg-loading-pulse 2.2s infinite;
+        ms-animation: dcg-loading-pulse 2.2s infinite;
+        o-animation: dcg-loading-pulse 2.2s infinite;
+        webkit-animation: dcg-loading-pulse 2.2s infinite;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -70px;
+        margin-top: -70px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+
+      .dcg-loading-div {
+        color: #fff;
+        font-size: 18px;
+        left: 50%;
+        width: 140px;
+        height: 140px;
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: transparent;
+        margin-left: -70px;
+        margin-top: -70px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background: no-repeat center center;
+        background-size: 120px 25px;
+        filter: grayscale(100%);
+        opacity: 0.75;
+        background-image: url();
+      }
+    </style>
+    <title>공학용 계산기 - online calculator</title>
+
+    <script>
+      window.platform = "www";
+    </script>
+
+    <style shopback-extension-v7-0-2="" data-styled-version="4.2.0"></style>
+  </head>
+  <body
+    dcg-platform="www"
+    data-user-info="{}"
+    class="dcg-tap-container touchtracking_id_1 dcg-hovered"
+    style="background: rgb(255, 255, 255)"
+  >
+  <a href="/" style="position:fixed;top:0px;left:5px;z-index:99999"><h3>HOME</h3><span>
+    <div class="dcg-loading-div-container" style="display: none">
+      <div class="dcg-loading-background-div"></div>
+      <div class="dcg-loading-div">Loading...</div>
+    </div>
+
+    <div id="main-container" class="">
+      <div class="">
+        <div id="navigation" role="navigation" class="">
+          <div class="dcg-header-container">
+            <div style="display: none"></div>
+            <div style="display: none"></div>
+            <div role="navigation" class="dcg-main-header-container">
+              <a href="/">Home</a>
+            <span></span>
+          </div>
+          
+        </div>
+        <div
+          id="main"
+          class="dcg-scientific-container"
+          style="border-color: rgb(255, 255, 255)"
+        >
+          <div
+            class="dcg-calculator-api-container"
+            style="width: 100%; height: 100%; position: relative"
+          >
+            <div
+              class="dcg-calc-basic-main-wrapper dcg-scientific-calculator dcg-container dcg-tap-container touchtracking_id_1"
+              x-ms-format-detection="none"
+            >
+              <div
+                role="application"
+                aria-label="psall 공학용 계산기"
+                class="dcg-calc-basic-main"
+                style="
+                  font-size: 16px;
+                  background: #ffffff;
+                  color: #000000;
+                  filter: none;
+                "
+              >
+                <div
+                  class="dcg-basic-list-container"
+                  role="complementary"
+                  aria-label="수식 리스트"
+                >
+                  <div class="dcg-basic-list-placeholder">
+                    <div style="display: none"></div>
+                  </div>
+                  <div class="dcg-basic-list">
+                    <div class="dcg-basic-expression" ontap="">
+                      <div style="display: none"></div>
+                      <div style="display: none"></div>
+                      <div style="display: none"></div>
+                      <div class="dcg-exp-mathquill-container">
+                        <div class="dcg-mq-container">
+                          <div style="display: none"></div>
+                          <div
+                            class="dcg-math-field dcg-mq-editable-field dcg-mq-math-mode"
+                          >
+                            <span class="dcg-mq-textarea">
+                              <textarea aria-label="수식 1:"></textarea></span
+                            ><span
+                              class="dcg-mq-root-block dcg-mq-empty"
+                              aria-hidden="true"
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="dcg-exp-output-container">
+                        <div style="display: none"></div>
+                        <div style="display: none"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div style="display: none"></div>
+                <div>
+                  <div
+                    class="dcg-keypad-control-bar dcg-do-not-blur"
+                    role="group"
+                    aria-label="컨트롤 바"
+                  >
+                    <div class="dcg-keypad-control-bar-contents">
+                      <div
+                        class="dcg-keypad-control-btn dcg-selected dcg-selectable-btn"
+                        role="button"
+                        aria-label="주요"
+                        dcg-command="main"
+                        ontap=""
+                        aria-pressed="true"
+                        tabindex="-1"
+                      >
+                        주요
+                      </div>
+                      <div
+                        class="dcg-keypad-control-btn dcg-selectable-btn"
+                        role="button"
+                        aria-label="A B C"
+                        dcg-command="ABC"
+                        ontap=""
+                        aria-pressed="false"
+                        tabindex="-1"
+                      >
+                        문자
+                      </div>
+                      <div
+                        class="dcg-keypad-control-btn dcg-selectable-btn"
+                        role="button"
+                        aria-label="함수"
+                        dcg-command="functions"
+                        ontap=""
+                        aria-pressed="false"
+                        tabindex="-1"
+                      >
+                        함수
+                      </div>
+                      <div
+                        class="dcg-keypad-control-toggle dcg-toggled"
+                        role="button"
+                        tabindex="0"
+                        aria-label="각도법이(가) 선택되었습니다. 호도법(으)로 돌아가려면 엔터 키를 누르십시오."
+                        ontap=""
+                      >
+                        <div class="dcg-ctrl-toggle-option">호도법</div>
+                        <div class="dcg-ctrl-toggle-option">각도법</div>
+                        <div
+                          class="dcg-ctrl-toggle-cover"
+                          style="background: #e6e6e6"
+                        ></div>
+                      </div>
+                      <div
+                        class="dcg-keypad-control-btn dcg-disabled"
+                        role="button"
+                        aria-disabled="true"
+                        aria-label="실행 취소"
+                        dcg-command="undo"
+                        ontap=""
+                      >
+                        <i class="dcg-icon-undo" aria-hidden="true"></i>
+                      </div>
+                      <div
+                        class="dcg-keypad-control-btn dcg-disabled"
+                        role="button"
+                        aria-disabled="true"
+                        aria-label="다시 실행"
+                        dcg-command="redo"
+                        ontap=""
+                      >
+                        <i class="dcg-icon-redo" aria-hidden="true"></i>
+                      </div>
+                      <div
+                        class="dcg-keypad-control-btn dcg-disabled"
+                        role="button"
+                        aria-disabled="true"
+                        aria-label="모두 지우기"
+                        dcg-command="clearall"
+                        ontap=""
+                      >
+                        모두 지우기
+                      </div>
+                      <div class="dcg-basic-settings-container">
+                        <div
+                          class="dcg-keypad-control-btn"
+                          role="button"
+                          aria-label="설정"
+                          dcg-command="settings"
+                          ontap=""
+                          aria-expanded="false"
+                          tabindex="0"
+                        >
+                          <i class="dcg-icon-wrench" aria-hidden="true"></i>
+                        </div>
+                        <div style="display: none"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dcg-basic-keypad-container">
+                    <div role="group" aria-label="키패드">
+                      <div class="dcg-basic-keypad dcg-do-not-blur">
+                        <div class="dcg-keypad-row">
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="a^2"
+                              aria-label="제곱"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak"
+                                    >"a" squared</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><var>a</var
+                                    ><span
+                                      class="dcg-mq-supsub dcg-mq-non-leaf dcg-mq-sup-only"
+                                      ><span class="dcg-mq-sup"
+                                        ><span class="dcg-mq-digit"
+                                          >2</span
+                                        ></span
+                                      ></span
+                                    ></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="a^b"
+                              aria-label="위 첨자"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak"
+                                    >"a" Superscript, "b" , Baseline</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><var>a</var
+                                    ><span
+                                      class="dcg-mq-supsub dcg-mq-non-leaf dcg-mq-sup-only"
+                                      ><span class="dcg-mq-sup"
+                                        ><var>b</var></span
+                                      ></span
+                                    ></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="|a|"
+                              aria-label="절댓값"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">| "a" |</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span>|</span><var>a</var
+                                    ><span>|</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div class="dcg-partition-placeholder"></div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="7"
+                              aria-label="7"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">7</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-digit">7</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="8"
+                              aria-label="8"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">8</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-digit">8</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="9"
+                              aria-label="9"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">9</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-digit">9</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="/"
+                              aria-label="나누기"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">over</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-binary-operator"
+                                      >÷</span
+                                    ></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div class="dcg-partition-placeholder"></div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="%"
+                              aria-label="(number)의 백분율"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">%</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-nonSymbola"
+                                      >%</span
+                                    ></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="a/b"
+                              aria-label="B분의 A"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak"
+                                    >StartFraction, "a" Over "b" ,
+                                    EndFraction</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span
+                                      class="dcg-mq-fraction dcg-mq-non-leaf"
+                                      ><span class="dcg-mq-numerator"
+                                        ><var>a</var></span
+                                      ><span class="dcg-mq-denominator"
+                                        ><var>b</var></span
+                                      ><span
+                                        style="display: inline-block; width: 0"
+                                        >​</span
+                                      ></span
+                                    ></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                        </div>
+                        <div class="dcg-keypad-row">
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="sqrt"
+                              aria-label="제곱근"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak"
+                                    >StartRoot, , EndRoot</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span
+                                      class="dcg-mq-non-leaf dcg-mq-sqrt-container"
+                                      ><span
+                                        class="dcg-mq-scaled dcg-mq-sqrt-prefix"
+                                        ><svg
+                                          preserveAspectRatio="none"
+                                          viewBox="0 0 32 54"
+                                        >
+                                          <path
+                                            d="M0 33 L7 27 L12.5 47 L13 47 L30 0 L32 0 L13 54 L11 54 L4.5 31 L0 33"
+                                          ></path></svg></span
+                                      ><span
+                                        class="dcg-mq-non-leaf dcg-mq-sqrt-stem dcg-mq-empty"
+                                      ></span></span
+                                  ></span></div></span
+                            ></span>
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="nthroot"
+                              aria-label="N번째 제곱근"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak"
+                                    >Root Index "n" , Start Root, , End
+                                    Root</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span
+                                      class="dcg-mq-nthroot-container dcg-mq-non-leaf"
+                                      ><sup
+                                        class="dcg-mq-nthroot dcg-mq-non-leaf"
+                                        ><var>n</var></sup
+                                      ><span
+                                        class="dcg-mq-scaled dcg-mq-sqrt-container"
+                                        ><span
+                                          class="dcg-mq-sqrt-prefix dcg-mq-scaled"
+                                          ><svg
+                                            preserveAspectRatio="none"
+                                            viewBox="0 0 32 54"
+                                          >
+                                            <path
+                                              d="M0 33 L7 27 L12.5 47 L13 47 L30 0 L32 0 L13 54 L11 54 L4.5 31 L0 33"
+                                            ></path></svg></span
+                                        ><span
+                                          class="dcg-mq-sqrt-stem dcg-mq-non-leaf dcg-mq-empty"
+                                        ></span></span></span
+                                  ></span></div></span
+                            ></span>
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="pi"
+                              aria-label="파이"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">pi</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-nonSymbola"
+                                      >π</span
+                                    ></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div class="dcg-partition-placeholder"></div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="4"
+                              aria-label="4"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">4</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-digit">4</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="5"
+                              aria-label="5"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">5</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-digit">5</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="6"
+                              aria-label="6"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">6</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-digit">6</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="*"
+                              aria-label="곱하기"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">times</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-binary-operator"
+                                      >×</span
+                                    ></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div class="dcg-partition-placeholder"></div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="left"
+                              aria-label="왼쪽 화살표"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><i
+                                  class="dcg-icon-arrow-left"
+                                  aria-hidden="true"
+                                ></i></span
+                            ></span>
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="right"
+                              aria-label="오른쪽 화살표"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><i
+                                  class="dcg-icon-arrow-right"
+                                  aria-hidden="true"
+                                ></i></span
+                            ></span>
+                          </div>
+                        </div>
+                        <div class="dcg-keypad-row">
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="sin"
+                              aria-label="사인"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><span
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                  ><span class="dcg-mq-root-block"
+                                    ><span class="dcg-mq-operator-name"
+                                      >sin</span
+                                    ></span
+                                  ></span
+                                ></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="cos"
+                              aria-label="코사인"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><span
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                  ><span class="dcg-mq-root-block"
+                                    ><span class="dcg-mq-operator-name"
+                                      >cos</span
+                                    ></span
+                                  ></span
+                                ></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="tan"
+                              aria-label="탄젠트"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><span
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                  ><span class="dcg-mq-root-block"
+                                    ><span class="dcg-mq-operator-name"
+                                      >tan</span
+                                    ></span
+                                  ></span
+                                ></span
+                              ></span
+                            >
+                          </div>
+                          <div class="dcg-partition-placeholder"></div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="1"
+                              aria-label="1"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">1</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-digit">1</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="2"
+                              aria-label="2"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">2</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-digit">2</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="3"
+                              aria-label="3"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">3</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-digit">3</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="-"
+                              aria-label="빼기"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">negative</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="">−</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div class="dcg-partition-placeholder"></div>
+                          <div style="flex-grow: 0.5"></div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1.5"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="backspace"
+                              aria-label="백스페이스"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><i
+                                  class="dcg-icon-delete"
+                                  aria-hidden="true"
+                                ></i></span
+                            ></span>
+                          </div>
+                        </div>
+                        <div class="dcg-keypad-row">
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="("
+                              aria-label="왼쪽 소괄호"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">(</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span>(</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command=")"
+                              aria-label="오른쪽 소괄호"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">)</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span>)</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command=","
+                              aria-label=","
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">,</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span>,</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div class="dcg-partition-placeholder"></div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="0"
+                              aria-label="0"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">0</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-digit">0</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-dark-on-gray"
+                              dcg-command="."
+                              aria-label="소수"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">.</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="dcg-mq-digit">.</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="ans"
+                              aria-label="정답"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                >ans</span
+                              ></span
+                            >
+                          </div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 1"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-light-on-gray"
+                              dcg-command="+"
+                              aria-label="더하기"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><div
+                                  class="dcg-mq-math-mode dcg-static-mathquill-view"
+                                >
+                                  <span class="dcg-mq-mathspeak">positive</span
+                                  ><span
+                                    class="dcg-mq-root-block"
+                                    aria-hidden="true"
+                                    ><span class="">+</span></span
+                                  >
+                                </div></span
+                              ></span
+                            >
+                          </div>
+                          <div class="dcg-partition-placeholder"></div>
+                          <div
+                            class="dcg-keypad-btn-container"
+                            style="flex-grow: 2"
+                          >
+                            <span
+                              role="button"
+                              class="dcg-keypad-btn dcg-btn-short-blue"
+                              dcg-command="enter"
+                              aria-label="입력"
+                              ontap=""
+                              ><span class="dcg-keypad-btn-content"
+                                ><i
+                                  class="dcg-icon-arrow-enter"
+                                  aria-hidden="true"
+                                ></i></span
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div style="display: none"></div>
+                <div style="display: none"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      // catches errors within iframe and promotes them to qunit during tests
+      try {
+        window.onerror = window.top.onerror;
+      } catch (ex) {}
+      if (typeof psall === "undefined") psall = {};
+      psall.config = { sciKeypad: true, degreeMode: true };
+      psall.commit = "177196b5e5b830d79909a2544bd8531edbc58b84";
+    </script>
+    <!-- Pull config information, and include it in psall.config -->
+
+    <script src="./assets/calculator_basic-07393dbd4a73fd2ffee1861cc8ef90b0b8925a2e.js"></script>
+
+    <script>
+      require(["toplevel/calculator_basic"]);
+    </script>
+
+    <p aria-live="assertive" aria-atomic="true" class="dcg-aria-alert"></p>
+  </body>
+  <div
+    id="shopback-app"
+    style="z-index: 2147483647 !important; display: block !important"
+  ></div>
+</html>
